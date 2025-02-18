@@ -1,6 +1,8 @@
 :root {
     --color-black : black;
     --color-white : white;
+
+    --color-dark : #1a1c35
 }
 
 * {

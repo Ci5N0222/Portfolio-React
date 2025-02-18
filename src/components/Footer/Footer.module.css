@@ -1,5 +1,6 @@
 .container {
-    background-color: #ddd;
+    background-color: var(--color-dark);
+    color: var(--color-white);
     min-height: 100px;
     display: flex;
     justify-content: center;

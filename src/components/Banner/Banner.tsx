@@ -1,9 +1,10 @@
 import styles from './Banner.module.css'
+import bg from '../../assets/img/bg01.jpg'
 
 export const Banner = () => {
     return(
         <div className={ styles.container }>
-            banner
+            <img src={ bg } alt="" />
         </div>
     )
 }

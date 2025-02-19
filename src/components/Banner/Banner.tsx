@@ -14,7 +14,7 @@ export const Banner = () => {
     return(
         <div className={ styles.container }>
             <div className={ styles.title }>
-                Wellcome C-ON's Page!! 
+                Wellcome C-ON's Home!! 
             </div>
             <div className={ styles.intro }>
                 <div className={ styles.sub }>

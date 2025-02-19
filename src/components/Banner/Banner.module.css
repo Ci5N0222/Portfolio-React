@@ -1,14 +1,131 @@
 .container {
     width: 100%;
     height: 100vh;
-    min-height: 400px;
+    min-height: 650px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/src/assets/img/bg01.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+    gap: 20px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    padding: 20px;
+    color: var(--color-white);
+}
+
+.codeWindow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 170px;
+    border-radius: 10px;
+    background-color: #030712;
+}
+
+.codeWindow > .btn {
+    width: 95%;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 6px;
+}
+
+.codeWindow > .btn > p {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+.codeWindow > .btn > :nth-child(1) {
+    background-color: #FF5951;
+}
+.codeWindow > .btn > :nth-child(2) {
+    background-color: #E5C029;
+}
+.codeWindow > .btn > :nth-child(3) {
+    background-color: #53C32B;
+}
+
+.codeForm {
+    width: 98%;
+    height: 130px;
+    border-radius: 10px;
+    background-color: #10141E;
+    padding: 10px;
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.container > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.sub {
+    width: 450px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+.sub > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.ment > p {
+    color: var(--color-white);
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 28px;
+    }
+    .sub > img {
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 20px;
+    }
+    .sub {
+        width: 340px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .ment {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .codeWindow {
+        width: 340px;
+    }
 }

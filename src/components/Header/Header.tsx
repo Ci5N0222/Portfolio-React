@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import styles from './Header.module.css'
-import logo01 from '../../assets/img/Logo01.png'
 import logo02 from '../../assets/img/Logo02.png'
 
 export const Header = () => {

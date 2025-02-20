@@ -25,7 +25,7 @@
     justify-content: center;
     align-items: center;
     width: 600px;
-    height: 170px;
+    height: 180px;
     border-radius: 10px;
     background-color: #030712;
 }
@@ -56,12 +56,14 @@
 }
 
 .codeForm {
+    display: flex;
+    justify-content: start;
+    align-items: center;
     width: 98%;
-    height: 130px;
+    height: 140px;
     border-radius: 10px;
     background-color: #10141E;
     color: var(--color-white);
-    padding: 5px;
     font-size: 14px;
     line-height: 1.6; /* 줄 간격 조정 */
 }
@@ -81,6 +83,7 @@
 .sub {
     width: 600px; 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap : 20px;
@@ -88,6 +91,7 @@
     background-color: rgba(0, 0, 0, 0.6);
     padding: 10px;
 }
+
 
 .imgBox {
     display: flex;
@@ -100,10 +104,17 @@
     border-radius: 20px;
 }
 
+.ment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .ment > p {
     color: var(--color-white);
     padding: 10px;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 700;
 }
 /* 타이핑 효과 애니메이션 */
@@ -136,7 +147,7 @@
     }
 
     .ment > p {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .codeWindow {
@@ -177,19 +188,18 @@
         border-radius: 20px;
     }
 
-    .ment {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .ment > p {
+        font-size: 18px;
     }
 
     .codeWindow {
         width: 340px;
+        height: 165px;
     }
 
     .codeForm {
         width: 98%;
         font-size: 12px;
+        height: 125px;
     }
 }

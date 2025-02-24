@@ -1,6 +1,4 @@
 import styles from './Banner.module.css'
-import profile01 from '../../assets/img/profile01.jpg'
-import profile02 from '../../assets/img/profile02.jpg'
 import { useEffect, useState } from 'react'
 
 export const Banner = () => {
@@ -8,13 +6,18 @@ export const Banner = () => {
     const fullCode: string = `<ddiv>
 　<p>성장하는 개발자 노시온입니다.</p>
 　<p>Web Developer C-ON</p>
-　<img src='github' />
-　<img src='tistory' />
+　<img src='Github' />
+　<img src='Blog' />
 </div>`;
     
 
     const [ displayedCode, setDisplayedCode ] = useState<string>("");
     const [ displayedForm, setDisplayedForm ] = useState(false);
+
+    const handleHref = (target :string) => {
+        if(target === "github") location.href = 'https://github.com/Ci5N0222';
+        else location.href = 'https://c-on-dev.tistory.com/';
+    }
 
     useEffect(() => {
         let index: number = 0;
@@ -29,7 +32,7 @@ export const Banner = () => {
 
         const intervalForm = setInterval(() => {
             setDisplayedForm(true)
-        }, 2400);
+        }, 2250);
 
         return () => {
             clearInterval(intervalCode);
@@ -54,8 +57,8 @@ export const Banner = () => {
                         <p>Web Developer C-ON</p>
                     </div>
                     <div className={ styles.imgBox }>
-                        <img src={profile01} />
-                        <img src={profile02} />
+                        <div onClick={ () => handleHref('github') }><p>Github</p></div>
+                        <div onClick={ () => handleHref('blog') }><p>Blog</p></div>
                     </div>
                 </div>
             </div>

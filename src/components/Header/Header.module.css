@@ -7,6 +7,7 @@ header {
     position : fixed;
     border-bottom: 1px solid #eee;
     transition: all 0.5s;
+    z-index: 2;
 }
 
 .container {
@@ -49,8 +50,7 @@ header {
 
 .scrolled {
     background-color: var(--color-dark);
-    transition: all 0.5s;
-    border-bottom: 1px solid var(--color-dark);
+    transition: all 0.3s;
 }
 
 /* ✅ 반응형: 화면이 작아질 때 카드 크기 자동 조정 */

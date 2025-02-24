@@ -107,10 +107,39 @@
     gap: 20px;
 }
 
-.imgBox > img {
+.imgBox > div {    
     width: 200px;
     height: 200px;
+    background-size: cover;
     border-radius: 20px;
+    display: flex;
+}
+
+.imgBox > div:hover {
+    color: orange;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.imgBox > div > p {
+    font-size: 25px;
+    font-weight: 900;
+    padding: 5px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.imgBox > :first-child {
+    background-image: url('/src/assets/img/profile01.jpg');
+    justify-content: center;
+    align-items: end;
+}
+
+.imgBox > :last-child {
+    background-image: url('/src/assets/img/profile02.jpg');
+    justify-content: center;
+    align-items: start;
 }
 
 .ment {
@@ -184,10 +213,14 @@
     }
 
 
-    .imgBox > img {
+    .imgBox > div {
         width: 120px;
         height: 120px;
         border-radius: 20px;
+    }
+
+    .imgBox > div > p {
+        font-size: 15px;
     }
 
     .ment > p {

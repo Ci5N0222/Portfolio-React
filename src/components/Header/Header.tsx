@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import styles from './Header.module.css'
-import logo02 from '../../assets/img/Logo02.png'
+import logo02 from '../../assets/img/logo02.png'
 
-export const Header = () => {
+export const Header = (props:{ list :any[], scrollToSection : any}) => {
 
   const [ scrolled, setScolled ] = useState<boolean>(false);
 
@@ -21,14 +21,14 @@ export const Header = () => {
   return (
     <header className={ scrolled ? styles.scrolled : "" }>
       <div className={ styles.container }>
-        <div className={ styles.logo }>
+        <div className={ styles.logo } onClick={() => window.scrollTo({ top: 0, behavior: "smooth"})}>
           <img src={ logo02 } alt="" />
         </div>
         <div className={ styles.menu }>
-          <button>About Me</button>
-          <button>Skills</button>
-          <button>Career</button>
-          <button>Project</button>
+          <button onClick={ () => props.scrollToSection(props.list[0]) }>About Me</button>
+          <button onClick={ () => props.scrollToSection(props.list[1]) }>Skills</button>
+          <button onClick={ () => props.scrollToSection(props.list[2]) }>Career</button>
+          <button onClick={ () => props.scrollToSection(props.list[3]) }>Project</button>
         </div>
       </div>
     </header>

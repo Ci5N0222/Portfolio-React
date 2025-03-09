@@ -76,10 +76,18 @@
     align-items: center;
     font-size: 22px;
     font-weight: 800;
-    padding: 10px;
-    border-bottom: 2px solid black;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
 }
 
-div {
-    /* border : 1px solid black; */
+.introduce {
+    width: 95%;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
 }

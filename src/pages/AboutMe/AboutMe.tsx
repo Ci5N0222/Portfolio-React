@@ -1,9 +1,8 @@
 import { FaRegUser, FaSchool } from 'react-icons/fa'
 import styles from './AboutMe.module.css'
 import { MdOutlinePhoneAndroid } from 'react-icons/md'
-import { LuMapPin, LuNotebookPen } from 'react-icons/lu'
+import { LuMapPin } from 'react-icons/lu'
 import { IoMailOpenOutline } from 'react-icons/io5'
-import { PiCertificate } from 'react-icons/pi'
 
 export const AboutMe = () => {
     return (
@@ -37,9 +36,10 @@ export const AboutMe = () => {
                 </div>
             </div>
 
-            
-
             {/* 자기소개 */}
+            <div className={ styles.introduce }>
+                안녕하세요
+            </div>
         </div> 
     )
 }

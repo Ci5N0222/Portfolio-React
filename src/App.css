@@ -1,0 +1,9 @@
+html {
+    scroll-padding-top: 70px;
+}
+
+@media (max-width: 480px) {
+    html {
+        scroll-padding-top: 100px;
+    }
+}

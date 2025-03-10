@@ -23,7 +23,7 @@ export const Project = () => {
                 <div className={ styles.contents }>
                     {
                         list.map(item => {
-                            return ( <Item  item={ item }/> );
+                            return ( <Item key={item} /> );
                         })
                     }
                 </div>

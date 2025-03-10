@@ -1,6 +1,6 @@
 import styles from './Item.module.css'
 
-export const Item = (props : { item : any }) => {
+export const Item = () => {
 
     return (
         <div className={ styles.item }>

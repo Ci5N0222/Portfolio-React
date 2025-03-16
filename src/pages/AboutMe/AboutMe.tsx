@@ -10,7 +10,8 @@ export const AboutMe = () => {
             <div className={ styles.title }> About Me!</div>
 
             <div className={ styles.profile }>
-                <div className={ styles.image}> </div>
+                <div className={ styles.image}>
+                </div>
                 <div className={ styles.info }>
                     <p><FaRegUser />　노시온( Sion Noh )</p>
                     <p><MdOutlinePhoneAndroid />　010-5122-4519</p>

@@ -9,14 +9,13 @@ export const Banner = () => {
 　<img src='Github' />
 　<img src='Blog' />
 </div>`;
-    
 
     const [ displayedCode, setDisplayedCode ] = useState<string>("");
     const [ displayedForm, setDisplayedForm ] = useState(false);
 
     const handleHref = (target :string) => {
-        if(target === "github") location.href = 'https://github.com/Ci5N0222';
-        else location.href = 'https://c-on-dev.tistory.com/';
+        if(target === "github") window.open('https://github.com/Ci5N0222', '_blank');
+        else window.open('https://c-on-dev.tistory.com/', '_blank');
     }
 
     useEffect(() => {

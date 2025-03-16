@@ -7,6 +7,9 @@ export const TopButton = () => {
   };
 
   return (
-    <div className={styles.container} onClick={() => scrollToTop()}>▲</div>
+    <div className={styles.container} onClick={() => scrollToTop()}>
+      <p>▲</p>
+      <p>TOP</p>
+    </div>
   )
 }

@@ -32,8 +32,8 @@ export const Header = (props:{ list :any[], scrollToSection : any}) => {
         </div>
         <div className={ styles.menu }>
           <button onClick={ () => props.scrollToSection(props.list[0]) }>About Me</button>
-          <button onClick={ () => props.scrollToSection(props.list[1]) }>Skills</button>
-          <button onClick={ () => props.scrollToSection(props.list[2]) }>Career</button>
+          <button onClick={ () => props.scrollToSection(props.list[1]) }>Career</button>
+          <button onClick={ () => props.scrollToSection(props.list[2]) }>Skills</button>
           <button onClick={ () => props.scrollToSection(props.list[3]) }>Project</button>
         </div>
       </div>

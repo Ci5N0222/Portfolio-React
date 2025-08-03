@@ -11,8 +11,8 @@ export const Main = (props:{list : any[]}) => {
     <main>
       <Banner />
       <div ref={ props.list[0] }><AboutMe /></div>
-      <div ref={ props.list[1] }><Skills /></div>
-      <div ref={ props.list[2] }><Career /></div>
+      <div ref={ props.list[1] }><Career /></div>
+      <div ref={ props.list[2] }><Skills /></div>
       <div ref={ props.list[3] }><Project /></div>
       <div className={styles.container}></div>
     </main>

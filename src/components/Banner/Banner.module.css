@@ -25,7 +25,7 @@
     justify-content: center;
     align-items: center;
     width: 600px;
-    height: 190px;
+    height: 210px;
     border-radius: 10px;
     background-color: #030712;
 }
@@ -58,13 +58,13 @@
 .codeForm {
     display: flex;
     justify-content: start;
-    width: 98%;
-    height: 150px;
+    width: 97%;
+    height: 160px;
     border-radius: 10px;
     background-color: #10141E;
     color: var(--color-white);
     font-size: 14px;
-    padding: 5px;
+    padding: 10px;
     line-height: 1.6; /* 줄 간격 조정 */
 }
 

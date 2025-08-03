@@ -4,7 +4,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("/src/assets/img/bg05.jpg");
+    background-size: cover;
+    background-position: center;
     gap: 20px;
+    padding: 20px;
 }
 
 .container > .title {
@@ -12,9 +16,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
     padding-top: 20px;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 800;
+    padding: 10px;
 }
 
 .board {
@@ -47,7 +53,6 @@
 .board > .contents {
     width: 100%;
     min-height: 250px;
-    max-height: 500px;
     background-color: white;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -57,5 +62,4 @@
     align-items: center;
     padding: 10px;
     gap: 15px;
-    overflow-y: auto;
 }

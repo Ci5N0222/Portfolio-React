@@ -1,10 +1,12 @@
 .container {
-    background-color: aquamarine;
     width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("/src/assets/img/bg02.jpg");
+    background-size: cover;
+    background-position: center;
     gap : 20px;
     padding: 10px
 }
@@ -15,20 +17,30 @@
     justify-content: center;
     align-items: center;
     padding-top: 20px;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 800;
+    color: white;
+}
+
+.profiles {
+    width: 95%;
+    display: flex;
+    gap: 20px;
 }
 
 .profile {
-    width: 95%;
+    width: 100%;
     height: 100%;
-    background-color: white;
-    min-height: 350px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    min-height: 400px;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap : 20px;
+    padding: 20px;
 }
 
 .profile > .image {
@@ -52,14 +64,16 @@
 }
 
 .study {
-    width: 95%;
+    width: 100%;
     min-height: 300px;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap : 20px;
+    padding: 20px;
 }
 
 .study > .education, .license {
@@ -84,7 +98,8 @@
 .introduce {
     width: 95%;
     min-height: 200px;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -104,5 +119,13 @@
     .profile > .info {
         width: 300px;
         font-size: 14px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .profiles {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 }

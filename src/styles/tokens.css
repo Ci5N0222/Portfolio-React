@@ -1,0 +1,22 @@
+:root {
+    --bg: #0c1118;
+    --panel: #121a24;
+    --line: #1e293b;
+    --text: #e5edf7;
+    --muted: #9fb0c4;
+    --green: #48d597;
+    --yellow: #ffcf5a;
+    --blue: #67b3ff;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: "IBM Plex Sans KR", sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+    background: radial-gradient(circle at 15% -10%, #1f2a3c 0%, transparent 35%), var(--bg);
+}
+
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }

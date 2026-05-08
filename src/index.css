@@ -1,0 +1,11 @@
+@import './styles/tokens.css';
+@import './styles/layout.css';
+@import './styles/sections.css';
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}

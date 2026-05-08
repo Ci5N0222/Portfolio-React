@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C-ON Noh | Portfolio</title>
+    <script>
+      // Redirect SPA routes to index.html
+      const path = decodeURIComponent(
+        window.location.pathname.slice(1).split('?')[0]
+      );
+      if (path && !path.includes('.')) {
+        sessionStorage.redirect = path;
+      }
+    </script>
+    <meta http-equiv="refresh" content="0;url=/" />
+  </head>
+  <body></body>
+</html>

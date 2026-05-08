@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "company": "프리랜서",
+    "title": "교원 - 도요새",
+    "description": "신규 기능 개발과 운영 안정화 담당",
+    "techStack": ["Java", "JSP", "Spring", "Oracle"],
+    "nav": "works",
+    "overview": "신규 기능 개발과 운영 안정화 담당",
+    "details": [],
+    "stack": ["Java", "JSP", "Spring", "Oracle"]
+  },
+  {
+    "id": 2,
+    "company": "NextICT",
+    "title": "교원 - 퍼펙트 문해",
+    "description": "관리자 페이지 신규 화면과 운영 기능 개발",
+    "techStack": ["Java", "Thymeleaf", "Spring Boot", "Oracle"],
+    "nav": "works",
+    "overview": "관리자 페이지 신규 화면과 운영 기능을 개발",
+    "details": [],
+    "stack": ["Java", "Thymeleaf", "Spring Boot", "Oracle"]
+  },
+  {
+    "id": 3,
+    "company": "NextICT",
+    "title": "KTT - GiGAeyes",
+    "description": "서비스 운영과 장애 대응 중심의 업무 수행",
+    "techStack": ["Linux", "PostgreSQL"],
+    "nav": "works",
+    "overview": "서비스 운영과 장애 대응 중심의 업무 수행",
+    "details": [],
+    "stack": ["Linux", "PostgreSQL"]
+  },
+  {
+    "id": 4,
+    "company": "ABC COMPANY",
+    "title": "KTHULU",
+    "description": "블록체인 지갑 개발",
+    "techStack": ["Kotlin", "Swift", "NodeJs", "MariaDB"],
+    "nav": "works",
+    "overview": "블록체인 지갑 개발",
+    "details": [],
+    "stack": ["Kotlin", "Swift", "NodeJs", "MariaDB"]
+  },
+  {
+    "id": 5,
+    "company": "ABC COMPANY",
+    "title": "Trans Bridge",
+    "description": "트랜스 브릿지 웹 서비스(테스트넷) 구축과 연동 기능 개발",
+    "techStack": ["Java", "Spring Boot", "MariaDB"],
+    "nav": "works",
+    "overview": "트랜스 브릿지 웹 서비스(테스트넷) 구축과 연동 기능을 개발",
+    "details": [],
+    "stack": ["Java", "Spring Boot", "MariaDB"]
+  },
+  {
+    "id": 6,
+    "company": "ABC COMPANY",
+    "title": "효성 - 블록체인 노드 구축",
+    "description": "노드 구축과 현황 모니터링 페이지 개발",
+    "techStack": ["Java", "Thymeleaf", "Spring Boot", "MariaDB"],
+    "nav": "works",
+    "overview": "노드 구축과 현황 모니터링 페이지 개발",
+    "details": [],
+    "stack": ["Java", "Thymeleaf", "Spring Boot", "MariaDB"]
+  },
+  {
+    "id": 7,
+    "company": "교육",
+    "title": "E-Commerce",
+    "description": "3차 팀 프로젝트 - 가구 이커머스 서비스 개발",
+    "techStack": ["Java", "React", "Spring Boot", "Oracle"],
+    "nav": "education",
+    "overview": "3차 팀 프로젝트 - 가구 이커머스 서비스 개발",
+    "details": [],
+    "stack": ["Java", "React", "Spring Boot", "Oracle"]
+  },
+  {
+    "id": 8,
+    "company": "교육",
+    "title": "ERP",
+    "description": "2차 팀 프로젝트 - 그룹웨어 서비스 개발",
+    "techStack": ["Java", "React", "Spring Boot", "Oracle"],
+    "nav": "education",
+    "overview": "2차 팀 프로젝트 - 그룹웨어 서비스 개발",
+    "details": [],
+    "stack": ["Java", "React", "Spring Boot", "Oracle"]
+  },
+  {
+    "id": 9,
+    "company": "교육",
+    "title": "Game - Platform",
+    "description": "1차 팀 프로젝트 - 게임 플랫폼 서비스 개발",
+    "techStack": ["Java", "Oracle"],
+    "nav": "education",
+    "overview": "1차 팀 프로젝트 - 게임 플랫폼 서비스 개발",
+    "details": [],
+    "stack": ["Java", "Oracle"]
+  },
+  {
+    "id": 10,
+    "company": "교육",
+    "title": "K-Degital",
+    "description": "기초부터 실무까지 개발 기본기 집중 학습",
+    "techStack": ["Java", "Spring Boot", "Oracle", "React", "HTML", "CSS", "JavaScript"],
+    "nav": "study",
+    "overview": "기초부터 실무까지 개발 기본기 집중 학습",
+    "details": [],
+    "stack": ["Java", "Spring Boot", "Oracle", "React", "HTML", "CSS", "JavaScript"]
+  }
+]

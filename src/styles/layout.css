@@ -1,0 +1,70 @@
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 18px;
+}
+
+section {
+    padding: 48px 0;
+    border-bottom: 1px solid var(--line);
+    scroll-margin-top: 72px;
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: transparent;
+    backdrop-filter: none;
+    border-bottom: 1px solid transparent;
+    transition: background 0.18s ease, backdrop-filter 0.18s ease, border-color 0.18s ease;
+}
+
+.site-header.scrolled,
+.site-header.menu-open {
+    background: rgba(12, 17, 24, 0.88);
+    backdrop-filter: blur(10px);
+    border-bottom-color: var(--line);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 64px;
+    position: relative;
+}
+
+.logo {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+    color: var(--green);
+    letter-spacing: 0.4px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    color: var(--muted);
+}
+
+.nav-links a:hover {
+    color: var(--blue);
+    transition: 0.2s;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    padding: 5px;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #95acc4;
+    transition: 0.3s;
+    border-radius: 2px;
+}
